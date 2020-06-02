@@ -1,0 +1,104 @@
+    .wrap {
+        font-size : 16px;
+        font-family: 'Jua', sans-serif;
+        margin: 10px auto;
+        width: 800px;
+    }
+    #wrap2 {
+        font-size : 14px;
+        font-family: 'Noto Sans KR', sans-serif;
+        margin: auto;
+        width: 800px;
+        padding : 10px 0 0 2px;
+    }
+    #product_name {
+        display: grid;
+        grid-template-columns: 525px 1fr;
+        padding-left : 5px;
+    }
+
+    .label {
+        color: black;
+        width : 745px; /*product_name의 padding-left만큼 깎음*/
+      }
+
+    .product_name{
+        background-color: hsla(170,80%,48%,0.55);
+    }
+
+    .order {
+        display : grid;
+        padding-left : 5px;
+        background-color: hsla(170,80%,48%,0.55);
+    }
+
+    .order_info{
+        padding : 20px 0 0 2px;
+    }
+
+    .product_price {
+        padding-left: 20px;
+        padding-top: 12px;
+    }
+
+    #exchange_rate {
+        color : #4266f5;
+        padding : 20px 0 20px 2px;
+    }
+
+    #product_order {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        padding-top : 4px;
+        padding-bottom : 4px;
+    }
+
+    .product_order_setting {
+        padding-left: 20px;
+    }
+
+    #select_property {
+        width : 212px;
+        font-size : 105%;
+    }
+    
+    #order_confirm{
+        width : 750px;
+        display : grid;
+        grid-template-columns : 2fr 1fr 6fr 2fr;
+        padding : 20px 0 20px 2px;
+        border-bottom : 2px solid hsla(170,80%,48%,0.55);
+        position : relative;
+    }
+
+    .textbox{
+        width : 205px;
+        height : 20px;
+        font-size : 16px;
+    }
+
+    .button {
+        border: none;
+        color: white;
+        padding: 12px 24px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        margin : 20px auto;
+        display : flex; /* center 정렬 코드 */
+        justify-content : center; /* center 정렬 코드 */
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+
+    .button2 {
+        background-color: white;
+        color: black;
+        border: 2px solid hsla(177, 94%, 50%, 0.66);
+    }
+
+    .button2:hover {
+        background-color : hsla(177, 94%, 50%, 0.66);
+        color: black;
+    }
